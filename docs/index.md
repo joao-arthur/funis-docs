@@ -30,4 +30,4 @@ range of applications. It is a helper for `modern day js`.
 
 ## License
 
-[MIT](LICENSE)
+MIT
