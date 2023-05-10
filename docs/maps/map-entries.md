@@ -20,7 +20,7 @@ maps.mapEntries(
         [4, 'nada'],
     ]),
     ([key, value]) => [`key_${key}`, `value_${value}`],
-) /* => Map {
+) /* Map {
     key_a -> 'value_1',
     key_b -> 'value_two',
     key_c -> 'value_true',

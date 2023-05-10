@@ -20,7 +20,7 @@ retry(() => {
         return Promise.resolve('Ludwig van Beethoven');
     else
         return Promise.reject('Johann Sebastian Bach');
-}, 10) // => 'Ludwig van Beethoven'
+}, 10) // 'Ludwig van Beethoven'
 ```
 
 ```ts
@@ -30,6 +30,6 @@ try {
         5
     );
 } catch (e) {
-    e // => // => 'Donatello' 
+    e // // 'Donatello' 
 }
 ```

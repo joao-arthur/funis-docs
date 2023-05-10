@@ -21,7 +21,7 @@ arrays.groupToObject(
         { type: 'water', name: 'psyduck' },
     ],
     item => item.type,
-) /* => {
+) /* {
     grass: [{ type: 'grass', name: 'bulbasaur' }],
     fire: [{ type: 'fire', name: 'charmander' }],
     water: [

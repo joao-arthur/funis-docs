@@ -11,7 +11,7 @@ Returns the entries of the Map instance.
 ## Example
 
 ```ts
-maps.entries(new Map()) // => []
+maps.entries(new Map()) // []
 ```
 
 ```ts
@@ -20,7 +20,7 @@ maps.entries(
         [1, { name: 'Paul McCartney' }],
         [2, { name: 'George Harrison' }],
     ])
-) /* => [
+) /* [
     [1, { name: 'Paul McCartney' }],
     [2, { name: 'George Harrison' }],
 ] */

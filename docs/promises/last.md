@@ -19,5 +19,5 @@ await promises.last([
     promises.rejectTimeout('Socrates', 50),
     promises.resolveTimeout('Plato', 100),
     promises.resolveTimeout('Aristotle', 200),
-]) // => 'Aristotle'
+]) // 'Aristotle'
 ```

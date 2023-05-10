@@ -21,7 +21,7 @@ arrays.groupToArray(
         { type: 'water', name: 'psyduck' },
     ],
     item => item.type,
-) /* => [
+) /* [
     [{ type: 'grass', name: 'bulbasaur' }],
     [{ type: 'fire', name: 'charmander' }],
     [

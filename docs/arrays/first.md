@@ -9,9 +9,6 @@ Returns the first item of the array.
 ## Example
 
 ```ts
-arrays.first([]) // => undefined
-```
-
-```ts
-arrays.first([4, 5, 6]) // => 4
+arrays.first([]) // undefined
+arrays.first([4, 5, 6]) // 4
 ```

@@ -20,7 +20,7 @@ maps.mapKeys(
         [4, 'nada'],
     ]),
     key => `v2_${key}_test`,
-) /* => Map {
+) /* Map {
     v2_a_test -> 1,
     v2_b_test -> 'two',
     v2_c_test -> true,

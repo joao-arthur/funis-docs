@@ -19,13 +19,13 @@ Returns true if the callback returns true once. Returns false otherwise.
 arrays.once(
     ['Axl', 'Slash', 'Duff', 'Buckethead'],
     item => item === 'Roses'
-) // => false
+) // false
 arrays.once(
     ['Axl', 'Slash', 'Duff', 'Buckethead'],
     item => item === 'Buckethead'
-) // => true
+) // true
 arrays.once(
     ['Axl', 'Slash', 'Duff', 'Buckethead'],
     item => item.length > 2
-) // => false
+) // false
 ```

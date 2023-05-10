@@ -15,5 +15,5 @@ Returns a promise that resolves after the timeout.
 await promises.resolveTimeout(
     'Hello, promise!',
     500
-) // => 'Hello, promise!'
+) // 'Hello, promise!'
 ```

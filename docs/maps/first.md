@@ -11,7 +11,7 @@ Returns the first entry of the map.
 ## Example
 
 ```ts
-maps.first(new Map()) // => undefined
+maps.first(new Map()) // undefined
 ```
 
 ```ts
@@ -20,5 +20,5 @@ maps.first(
         [1, { name: 'Paul McCartney' }],
         [2, { name: 'John Lennon' }],
     ])
-) // => [1, { name: 'Paul McCartney' }]
+) // [1, { name: 'Paul McCartney' }]
 ```

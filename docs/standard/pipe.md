@@ -25,9 +25,9 @@ To ensure type-safety, you have to explicit type the first function.
 
 ```ts
 pipe(
-    (value: number) => value * 2, // => 20
-    value => value - 5, // => 15
-    value => value / 3, // => 5
-    value => `${value} is the result` // => '5 is the result'
-)(10) // => '5 is the result'
+    (value: number) => value * 2, // 20
+    value => value - 5, // 15
+    value => value / 3, // 5
+    value => `${value} is the result` // '5 is the result'
+)(10) // '5 is the result'
 ```

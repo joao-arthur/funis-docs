@@ -17,7 +17,7 @@ Whenever the returned function is called during the timeout period, the function
 const strArr: string[] = [];
 throttle(() => strArr.push('Salvator mundi'), 0)();
 // after 5 ms
-strArr // => ['Salvator mundi']
+strArr // ['Salvator mundi']
 ```
 
 ```ts
@@ -27,5 +27,5 @@ returnedFn();
 returnedFn();
 returnedFn();
 // after 10 ms
-strArr // => ['Salvator mundi']
+strArr // ['Salvator mundi']
 ```

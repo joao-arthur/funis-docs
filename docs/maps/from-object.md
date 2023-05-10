@@ -9,7 +9,7 @@ Returns a Map instance with the same key-value pairs of the passed object.
 ## Example
 
 ```ts
-maps.fromObject({}) // => Map { }
+maps.fromObject({}) // Map { }
 ```
 
 ```ts
@@ -18,7 +18,7 @@ maps.fromObject({
     John: 'Guitar',
     George: 'Guitar',
     Ringo: 'Drums',
-}) /* => Map {
+}) /* Map {
     Paul -> 'Bass',
     John -> 'Guitar',
     George -> 'Guitar',

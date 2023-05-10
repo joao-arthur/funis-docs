@@ -15,12 +15,12 @@ Creates an object without the passed keys.
 objects.omit(
     { animal: 'dog', species: 'Canis lupus', age: 5 },
     [],
-) // => { animal: 'dog', species: 'Canis lupus', age: 5 }
+) // { animal: 'dog', species: 'Canis lupus', age: 5 }
 ```
 
 ```ts
 objects.omit(
     { animal: 'dog', species: 'Canis lupus', age: 5 },
     ['animal'],
-) // => { species: 'Canis lupus', age: 5 }
+) // { species: 'Canis lupus', age: 5 }
 ```

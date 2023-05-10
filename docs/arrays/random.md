@@ -9,10 +9,10 @@ Returns a random character of the array.
 ## Example
 
 ```ts
-arrays.random([]) // => undefined
+arrays.random([]) // undefined
 ```
 
 ```ts
-arrays.random([true]) // => [true]
-arrays.random(false, 0, 'n') // => false | 0 | 'n'
+arrays.random([true]) // [true]
+arrays.random(false, 0, 'n') // false | 0 | 'n'
 ```

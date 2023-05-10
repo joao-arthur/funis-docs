@@ -20,7 +20,7 @@ maps.mapValues(
         [4, 'nada'],
     ]),
     value => value === true,
-) /* => Map {
+) /* Map {
     a -> false,
     b -> false,
     c -> true,

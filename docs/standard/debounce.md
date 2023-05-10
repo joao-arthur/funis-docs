@@ -20,7 +20,7 @@ returnedFn();
 // after 5 ms
 returnedFn();
 // after 5 ms
-strArr // => ['Salvator mundi', 'Salvator mundi']
+strArr // ['Salvator mundi', 'Salvator mundi']
 ```
 
 ```ts
@@ -34,5 +34,5 @@ returnedFn();
 // after 10 ms
 returnedFn();
 // after 10 ms
-strArr // => []
+strArr // []
 ```

@@ -11,7 +11,7 @@ Returns an object with the same key-value pairs of the passed Map instance.
 ## Example
 
 ```ts
-objects.fromMap(new Map([])) // => { }
+objects.fromMap(new Map([])) // { }
 ```
 
 ```ts
@@ -22,7 +22,7 @@ objects.fromMap(
         ['George', 'Guitar'],
         ['Ringo', 'Drums'],
     ])
-) /* => {
+) /* {
     Paul: 'Bass',
     John: 'Guitar',
     George: 'Guitar',

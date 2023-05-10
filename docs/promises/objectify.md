@@ -23,17 +23,17 @@ Returns an object with value and error entries corrensponding to resolved or rej
 ```ts
 await promises.objectify(
     Promise.resolve(undefined)
-) // => { value: undefined, error: undefined, type: 'resolved' }
+) // { value: undefined, error: undefined, type: 'resolved' }
 await promises.objectify(
     Promise.resolve('Symbolic acts')
-) // => { value: 'Symbolic acts', error: undefined, type: 'resolved' }
+) // { value: 'Symbolic acts', error: undefined, type: 'resolved' }
 ```
 
 ```ts
 await promises.objectify(
     Promise.reject(undefined)
-) // => { value: undefined, error: undefined, type: 'rejected' }
+) // { value: undefined, error: undefined, type: 'rejected' }
 await promises.objectify(
     Promise.reject('So vivid')
-) // => { value: undefined, error: 'So vivid', type: 'rejected' }
+) // { value: undefined, error: 'So vivid', type: 'rejected' }
 ```

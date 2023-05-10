@@ -21,7 +21,7 @@ arrays.groupToMap(
         { type: 'water', name: 'psyduck' },
     ],
     item => item.type,
-) /* => Map {
+) /* Map {
     grass -> [{ type: 'grass', name: 'bulbasaur' }],
     fire -> [{ type: 'fire', name: 'charmander' }],
     water -> [

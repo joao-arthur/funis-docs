@@ -20,7 +20,7 @@ objects.mapValues(
         4: 'nada',
     },
     value => value === true,
-) /* => {
+) /* {
     a: false,
     b: false,
     c: true,

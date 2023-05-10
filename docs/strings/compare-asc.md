@@ -9,5 +9,5 @@ Compare the strings in ascending order.
 ## Example
 
 ```ts
-['q', 'p', 'Q', 'P'].sort(compareAsc) // => ['P', 'Q', 'p', 'q']
+['q', 'p', 'Q', 'P'].sort(compareAsc) // ['P', 'Q', 'p', 'q']
 ```
