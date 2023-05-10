@@ -24,6 +24,18 @@ export default {
                 ]
             },
             {
+                text: 'callbacks',
+                collapsible: true,
+                items: [
+                    { text: 'eq', link: '/callbacks/eq' },
+                    { text: 'ne', link: '/callbacks/ne' },
+                    { text: 'gt', link: '/callbacks/gt' },
+                    { text: 'ge', link: '/callbacks/ge' },
+                    { text: 'lt', link: '/callbacks/lt' },
+                    { text: 'le', link: '/callbacks/le' },
+                ]
+            },
+            {
                 text: 'maps',
                 collapsible: true,
                 items: [
