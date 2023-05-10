@@ -1,10 +1,10 @@
 # eq
 
 ```ts
-const eq: <T>(val1: T) => (val2: T) => boolean;
+const eq: <T>(val2: T) => (val1: T) => boolean;
 ```
 
-Returns a function that compares the two passed values with the "===" operator.
+Returns a function that compares val1 === val2.
 
 ## Example
 
@@ -13,5 +13,5 @@ callbacks.eq(1)(1) // true
 ```
 
 ```ts
-callbacks.gt(2)(2) // true
+callbacks.eq(2)(2) // true
 ```

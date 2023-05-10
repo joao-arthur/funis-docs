@@ -1,17 +1,17 @@
 # ge
 
 ```ts
-const ge: <T>(val1: T) => (val2: T) => boolean;
+const ge: <T>(val2: T) => (val1: T) => boolean;
 ```
 
-Returns a function that compares the two passed values with the ">=" operator.
+Returns a function that compares val1 >= val2.
 
 ## Example
 
 ```ts
-callbacks.ge(2)(1) // true
+callbacks.ge(1)(2) // true
 ```
 
 ```ts
-callbacks.gt(1)(1) // true
+callbacks.ge(1)(1) // true
 ```

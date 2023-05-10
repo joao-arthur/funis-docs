@@ -1,17 +1,17 @@
 # le
 
 ```ts
-const le: <T>(val1: T) => (val2: T) => boolean;
+const le: <T>(val2: T) => (val1: T) => boolean;
 ```
 
-Returns a function that compares the two passed values with the "<=" operator.
+Returns a function that compares val1 <= val2.
 
 ## Example
 
 ```ts
-callbacks.le(1)(2) // true
+callbacks.le(2)(1) // true
 ```
 
 ```ts
-callbacks.gt(1)(1) // true
+callbacks.le(1)(1) // true
 ```
