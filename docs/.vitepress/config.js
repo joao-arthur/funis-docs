@@ -36,11 +36,11 @@ export default {
                 ]
             },
             {
-                text: 'std',
+                text: 'chr',
                 collapsible: true,
                 items: [
-                    { text: 'debounce', link: '/std/debounce' },
-                    { text: 'throttle', link: '/std/throttle' },
+                    { text: 'debounce', link: '/chr/debounce' },
+                    { text: 'throttle', link: '/chr/throttle' },
                 ]
             },
             {
@@ -70,6 +70,8 @@ export default {
                     { text: 'random', link: '/num/random' },
                     { text: 'compareAsc', link: '/num/compare-asc' },
                     { text: 'compareDesc', link: '/num/compare-desc' },
+                    { text: 'toFixed', link: '/num/to-fixed' },
+                    { text: 'normalizeZero', link: '/num/normalize-zero' },
                 ]
             },
             {
