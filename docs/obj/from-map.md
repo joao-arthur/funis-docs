@@ -1,7 +1,7 @@
 # fromMap
 
 ```ts
-function fromMap<T>(
+function fromMap<const T>(
     map: Map<string | number, T>
 ): plainObject<T>
 ```
@@ -11,11 +11,11 @@ Returns an object with the same key-value pairs of the passed Map instance.
 ## Example
 
 ```ts
-objects.fromMap(new Map([])) // { }
+obj.fromMap(new Map([])) // { }
 ```
 
 ```ts
-objects.fromMap(
+obj.fromMap(
     new Map([
         ['Paul', 'Bass'],
         ['John', 'Guitar'],

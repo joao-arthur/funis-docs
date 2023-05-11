@@ -9,9 +9,9 @@ Returns a function that compares val1 > val2.
 ## Example
 
 ```ts
-callbacks.gt(1)(2) // true
+cb.gt(1)(2) // true
 ```
 
 ```ts
-callbacks.gt(1)(1) // false
+cb.gt(1)(1) // false
 ```

@@ -1,7 +1,7 @@
 # mapValues
 
 ```ts
-function mapValues<T>(
+function mapValues<const T>(
     obj: plainObject<T>,
     cb: (value: T) => T
 ): plainObject<T>
@@ -12,7 +12,7 @@ Map the object values into an object.
 ## Example
 
 ```ts
-objects.mapValues(
+obj.mapValues(
     {
         a: 1,
         b: 'two',

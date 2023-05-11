@@ -12,7 +12,7 @@ Map the _Map instance_ keys into a new _Map instance_.
 ## Example
 
 ```ts
-maps.mapKeys(
+map.mapKeys(
     new Map([
         ['a', 1],
         ['b', 'two'],

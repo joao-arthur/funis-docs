@@ -9,9 +9,9 @@ Returns a function that compares val1 === val2.
 ## Example
 
 ```ts
-callbacks.eq(1)(1) // true
+cb.eq(1)(1) // true
 ```
 
 ```ts
-callbacks.eq(2)(2) // true
+cb.eq(2)(2) // true
 ```

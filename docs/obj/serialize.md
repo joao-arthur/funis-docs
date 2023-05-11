@@ -1,7 +1,7 @@
 # serialize
 
 ```ts
-function serialize<T>(obj: plainObject<T>): string
+function serialize<const T>(obj: plainObject<T>): string
 ```
 
 Serializes the plain properties to a json-like format that is friendly to read. 
@@ -9,7 +9,7 @@ Serializes the plain properties to a json-like format that is friendly to read.
 ## Example
 
 ```ts
-objects.serialize({
+obj.serialize({
     name: 'Paul',
     numberOfBands: 4,
     alive: true,
@@ -17,7 +17,7 @@ objects.serialize({
 ```
 
 ```ts
-objects.serialize({
+obj.serialize({
     empty: [],
     oneValue: [1],
     multiValue: [true, false, 'zaphod', 42n],
@@ -33,7 +33,7 @@ class Dog {
     }
 }
 
-objects.serialize(
+obj.serialize(
     new Dog('Rex') as unknown as plainObject
 ) // '{ name: Rex }'
 ```

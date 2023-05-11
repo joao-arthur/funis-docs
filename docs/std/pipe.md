@@ -24,7 +24,7 @@ To ensure type-safety, you have to explicit type the first function.
 ## Example
 
 ```ts
-pipe(
+std.pipe(
     (value: number) => value * 2, // 20
     value => value - 5, // 15
     value => value / 3, // 5

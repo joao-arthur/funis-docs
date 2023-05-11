@@ -1,7 +1,7 @@
 # once
 
 ```ts
-function once<T>(
+function once<const T>(
     arr: readonly T[],
     cb: (
         item: T,
@@ -16,15 +16,15 @@ Returns true if the callback returns true once. Returns false otherwise.
 ## Example
 
 ```ts
-arrays.once(
+arr.once(
     ['Axl', 'Slash', 'Duff', 'Buckethead'],
     item => item === 'Roses'
 ) // false
-arrays.once(
+arr.once(
     ['Axl', 'Slash', 'Duff', 'Buckethead'],
     item => item === 'Buckethead'
 ) // true
-arrays.once(
+arr.once(
     ['Axl', 'Slash', 'Duff', 'Buckethead'],
     item => item.length > 2
 ) // false

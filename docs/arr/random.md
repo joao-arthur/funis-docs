@@ -1,7 +1,7 @@
 # random
 
 ```ts
-random<T>(arr: readonly T[]): T | undefined
+random<const T>(arr: readonly T[]): T | undefined
 ```
 
 Returns a random character of the array.
@@ -9,10 +9,10 @@ Returns a random character of the array.
 ## Example
 
 ```ts
-arrays.random([]) // undefined
+arr.random([]) // undefined
 ```
 
 ```ts
-arrays.random([true]) // [true]
-arrays.random(false, 0, 'n') // false | 0 | 'n'
+arr.random([true]) // [true]
+arr.random(false, 0, 'n') // false | 0 | 'n'
 ```

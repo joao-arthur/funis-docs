@@ -1,7 +1,7 @@
 # last
 
 ```ts
-function last<T>(promises: readonly Promise<T>[]): Promise<T>
+function last<const T>(promises: readonly Promise<T>[]): Promise<T>
 ```
 
 Returns the last promise to resolve/reject.
@@ -15,9 +15,9 @@ This way, the only promise you can *then* or *catch* is the one returned by this
 ## Example
 
 ```ts
-await promises.last([
-    promises.rejectTimeout('Socrates', 50),
-    promises.resolveTimeout('Plato', 100),
-    promises.resolveTimeout('Aristotle', 200),
+await prm.last([
+    prm.rejectTimeout('Socrates', 50),
+    prm.resolveTimeout('Plato', 100),
+    prm.resolveTimeout('Aristotle', 200),
 ]) // 'Aristotle'
 ```

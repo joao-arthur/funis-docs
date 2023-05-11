@@ -24,7 +24,7 @@ You have to explicit type all but the first function argument 😰.
 ## Example
 
 ```ts
-compose(
+std.compose(
     value => `${value} is the result` // '5 is the result'
     (value: number) => value / 3, // 5
     (value: number) => value - 5, // 15

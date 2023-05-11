@@ -25,7 +25,7 @@ retry(() => {
 
 ```ts
 try {
-    await promises.retry(
+    await prm.retry(
         Promise.reject('Donatello'),
         5
     );

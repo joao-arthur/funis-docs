@@ -21,19 +21,19 @@ Returns an object with value and error entries corrensponding to resolved or rej
 ## Example
 
 ```ts
-await promises.objectify(
+await prm.objectify(
     Promise.resolve(undefined)
 ) // { value: undefined, error: undefined, type: 'resolved' }
-await promises.objectify(
+await prm.objectify(
     Promise.resolve('Symbolic acts')
 ) // { value: 'Symbolic acts', error: undefined, type: 'resolved' }
 ```
 
 ```ts
-await promises.objectify(
+await prm.objectify(
     Promise.reject(undefined)
 ) // { value: undefined, error: undefined, type: 'rejected' }
-await promises.objectify(
+await prm.objectify(
     Promise.reject('So vivid')
 ) // { value: undefined, error: 'So vivid', type: 'rejected' }
 ```

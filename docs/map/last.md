@@ -9,11 +9,11 @@ Returns the last entry of the map.
 ## Example
 
 ```ts
-maps.last(new Map()) // undefined
+map.last(new Map()) // undefined
 ```
 
 ```ts
-maps.last(
+map.last(
     new Map([
         [1, { name: 'Paul McCartney' }],
         [2, { name: 'John Lennon' }],

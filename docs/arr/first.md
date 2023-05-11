@@ -1,7 +1,7 @@
 # first
 
 ```ts
-function first<T>(arr: readonly T[]): T | undefined
+function first<const T>(arr: readonly T[]): T | undefined
 ```
 
 Returns the first item of the array.
@@ -9,6 +9,6 @@ Returns the first item of the array.
 ## Example
 
 ```ts
-arrays.first([]) // undefined
-arrays.first([4, 5, 6]) // 4
+arr.first([]) // undefined
+arr.first([4, 5, 6]) // 4
 ```

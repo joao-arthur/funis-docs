@@ -12,7 +12,7 @@ Group the items by the returned value of the callback. Then return the groups in
 ## Example
 
 ```ts
-arrays.groupToMap(
+arr.groupToMap(
     [
         { type: 'grass', name: 'bulbasaur' },
         { type: 'fire', name: 'charmander' },

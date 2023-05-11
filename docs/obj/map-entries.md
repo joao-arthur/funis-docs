@@ -14,7 +14,7 @@ Map the object entries into an object.
 ## Example
 
 ```ts
-objects.mapEntries(
+obj.mapEntries(
     {
         a: 1,
         b: 'two',

@@ -9,12 +9,12 @@ Returns false for *undefined* and *null*. Returns true otherwise.
 ## Example
 
 ```ts
-strings.isValid(undefined) // false
-strings.isValid(null) // false
+str.isValid(undefined) // false
+str.isValid(null) // false
 ```
 
 ```ts
-strings.isValid('') // true
-strings.isValid(' ') // true
-strings.isValid('Lorem ipsum') // true
+str.isValid('') // true
+str.isValid(' ') // true
+str.isValid('Lorem ipsum') // true
 ```
