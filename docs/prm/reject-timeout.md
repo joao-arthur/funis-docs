@@ -18,6 +18,6 @@ try {
         500
     );
 } catch (e) {
-    e // // 'Hello, promise!' 
+    e // 'Hello, promise!'
 }
 ```

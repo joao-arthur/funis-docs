@@ -4,7 +4,7 @@
 function serialize<const T>(obj: plainObject<T>): string
 ```
 
-Serializes the plain properties to a json-like format that is friendly to read. 
+Serializes the plain properties to a json-like format that is friendly to read.
 
 ## Example
 

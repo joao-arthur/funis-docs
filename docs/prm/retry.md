@@ -30,6 +30,6 @@ try {
         5
     );
 } catch (e) {
-    e // // 'Donatello' 
+    e // 'Donatello'
 }
 ```

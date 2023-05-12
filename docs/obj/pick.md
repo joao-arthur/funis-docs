@@ -11,14 +11,14 @@ Creates an object with only the passed keys.
 
 ## Example
 
-```ts   
+```ts
 obj.pick(
     { animal: 'dog', species: 'Canis lupus', age: 5 },
     [],
 ) // { }
 ```
 
-```ts   
+```ts
 obj.pick(
     { animal: 'dog', species: 'Canis lupus', age: 5 },
     ['animal'],

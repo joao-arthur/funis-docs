@@ -18,7 +18,7 @@ If min is passed and the number is smaller than min, returns min.
 If max is passed and the number is bigger than max, returns max.
 
 Returns the passed value otherwise.
-    
+
 ## Example
 
 ```ts

@@ -1,7 +1,7 @@
 # eq
 
 ```ts
-const eq: <T>(val2: T) => (val1: T) => boolean;
+const eq: <T>(val2: T) => (val1: T) => boolean
 ```
 
 Returns a function that compares val1 === val2.

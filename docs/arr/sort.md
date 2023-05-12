@@ -18,5 +18,5 @@ original // [9, 1, true, 'olá mundo']
 ```
 
 ```ts
-arr.sort([5,4,3], (a, b) => a - b) // [3, 4, 5]
+arr.sort([5, 4, 3], (a, b) => a - b) // [3, 4, 5]
 ```
