@@ -21,6 +21,7 @@ export default {
                     { text: 'groupToObject', link: '/arr/group-to-object' },
                     { text: 'combinations', link: '/arr/combinations' },
                     { text: 'random', link: '/arr/random' },
+                    { text: 'repeat', link: '/arr/repeat' },
                 ]
             },
             {
