@@ -15,8 +15,8 @@
         "preview": "vitepress preview docs"
     },
     "devDependencies": {
-        "typescript": "4.9.5",
-        "vitepress": "1.0.0-alpha.35",
-        "vue": "^3.2.45"
+        "typescript": "5.1.6",
+        "vitepress": "1.0.0-beta.7",
+        "vue": "3.3.4"
     }
 }
