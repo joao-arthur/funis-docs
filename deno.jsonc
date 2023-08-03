@@ -1,14 +1,18 @@
 {
     "fmt": {
         "include": [
-            "src/"
+            "docs/index.md",
+            "docs/.vitepress/config.js",
+            "docs/changelog"
         ],
         "lineWidth": 100,
         "indentWidth": 4
     },
     "lint": {
         "include": [
-            "src/"
+            "docs/index.md",
+            "docs/.vitepress/config.js",
+            "docs/changelog"
         ],
         "rules": {
             "include": [
