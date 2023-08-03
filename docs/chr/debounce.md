@@ -4,10 +4,10 @@
 function debounce(
     cb: () => void,
     timeout: number
-): () => void
+): () => number
 ```
 
-Returns a function that executes the callback after the timeout.
+Returns a function that executes the callback after the timeout. The returned value is the timeout id.
 
 Whenever the returned function is called during the timeout period, the timeout resets.
 
