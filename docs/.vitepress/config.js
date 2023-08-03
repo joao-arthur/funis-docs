@@ -140,7 +140,7 @@ export default {
                 items: [
                     { text: "v1.1.0", link: "/changelog/v1.1.0" },
                     { text: "v1.1.1", link: "/changelog/v1.1.1" },
-                    { text: "v1.2.0 coming soon...", link: "/changelog/v1.2.0" },
+                    { text: "v1.2.0", link: "/changelog/v1.2.0" },
                 ],
             },
         ],
