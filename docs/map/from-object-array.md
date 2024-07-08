@@ -1,7 +1,7 @@
 # fromObjectArray
 
 ```ts
-function fromObjectArray<const T, const Id extends keyof T>(items: readonly T[], prop: Id): Map<Id, T>
+function fromObjectArray<const T, const Id extends keyof T>(items: readonly T[], prop: Id): Map<T[Id], T>
 ```
 
 Returns a Map instance with the items, using the passed prop of the objects as keys.
