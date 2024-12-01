@@ -16,7 +16,3 @@ applications. It is a helper for the current standard JS.
 - Modularized functions
 - Fully typed
 - No side effects, except for some Promise operations
-
-## License
-
-[MIT](LICENSE)
