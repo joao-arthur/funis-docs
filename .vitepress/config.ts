@@ -1,6 +1,5 @@
 import { defineConfig } from "vitepress";
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "funis",
     description: "A VitePress Site",
@@ -46,8 +45,6 @@ export default defineConfig({
                     { text: "mapEntries", link: "/map/map-entries" },
                     { text: "mapKeys", link: "/map/map-keys" },
                     { text: "mapValues", link: "/map/map-values" },
-                    { text: "first", link: "/map/first" },
-                    { text: "last", link: "/map/last" },
                     { text: "entries", link: "/map/entries" },
                     { text: "keys", link: "/map/keys" },
                     { text: "values", link: "/map/values" },
@@ -65,7 +62,6 @@ export default defineConfig({
                     { text: "random", link: "/num/random" },
                     { text: "compareAsc", link: "/num/compare-asc" },
                     { text: "compareDesc", link: "/num/compare-desc" },
-                    { text: "toFixed", link: "/num/to-fixed" },
                     { text: "normalizeZero", link: "/num/normalize-zero" },
                 ],
             },
