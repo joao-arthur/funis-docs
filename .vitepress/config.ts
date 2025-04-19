@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
     title: "funis",
+    base: "/funis",
     description: "A VitePress Site",
     themeConfig: {
         sidebar: [

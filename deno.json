@@ -1,6 +1,7 @@
 {
     "fmt": {
         "include": [
+            "arr/",
             "index.md",
             ".vitepress/config.ts",
             "changelog"
