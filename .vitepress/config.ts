@@ -1,16 +1,14 @@
-export default {
+import { defineConfig } from "vitepress";
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
     title: "funis",
-    base: "/funis-docs/",
-    description: "Optionated type-safe utility library",
+    description: "A VitePress Site",
     themeConfig: {
         sidebar: [
             {
                 text: "arr",
-                collapsible: true,
                 items: [
-                    { text: "first", link: "/arr/first" },
-                    { text: "last", link: "/arr/last" },
-                    { text: "sort", link: "/arr/sort" },
                     { text: "unique", link: "/arr/unique" },
                     { text: "once", link: "/arr/once" },
                     { text: "disjoint", link: "/arr/disjoint" },
@@ -26,7 +24,6 @@ export default {
             },
             {
                 text: "cb",
-                collapsible: true,
                 items: [
                     { text: "eq", link: "/cb/eq" },
                     { text: "ne", link: "/cb/ne" },
@@ -38,7 +35,6 @@ export default {
             },
             {
                 text: "chr",
-                collapsible: true,
                 items: [
                     { text: "debounce", link: "/chr/debounce" },
                     { text: "throttle", link: "/chr/throttle" },
@@ -46,7 +42,6 @@ export default {
             },
             {
                 text: "map",
-                collapsible: true,
                 items: [
                     { text: "mapEntries", link: "/map/map-entries" },
                     { text: "mapKeys", link: "/map/map-keys" },
@@ -61,7 +56,6 @@ export default {
             },
             {
                 text: "num",
-                collapsible: true,
                 items: [
                     { text: "clamp", link: "/num/clamp" },
                     { text: "parse", link: "/num/parse" },
@@ -77,7 +71,6 @@ export default {
             },
             {
                 text: "obj",
-                collapsible: true,
                 items: [
                     { text: "mapEntries", link: "/obj/map-entries" },
                     { text: "mapKeys", link: "/obj/map-keys" },
@@ -93,7 +86,6 @@ export default {
             },
             {
                 text: "prm",
-                collapsible: true,
                 items: [
                     { text: "last", link: "/prm/last" },
                     { text: "resolveTimeout", link: "/prm/resolve-timeout" },
@@ -104,7 +96,6 @@ export default {
             },
             {
                 text: "std",
-                collapsible: true,
                 items: [
                     { text: "compose", link: "/std/compose" },
                     { text: "pipe", link: "/std/pipe" },
@@ -113,7 +104,6 @@ export default {
             },
             {
                 text: "str",
-                collapsible: true,
                 items: [
                     { text: "camelCase", link: "/str/camel-case" },
                     { text: "pascalCase", link: "/str/pascal-case" },
@@ -129,14 +119,12 @@ export default {
             },
             {
                 text: "types",
-                collapsible: true,
                 items: [
                     { text: "plainObject", link: "/types/plain-object" },
                 ],
             },
             {
                 text: "changelog",
-                collapsible: true,
                 items: [
                     { text: "v1.1.0", link: "/changelog/v1.1.0" },
                     { text: "v1.1.1", link: "/changelog/v1.1.1" },
@@ -144,5 +132,9 @@ export default {
                 ],
             },
         ],
+        socialLinks: [
+            { icon: "github", link: "https://github.com/joao-arthur/funis-deno" },
+            { icon: "github", link: "https://github.com/joao-arthur/funis-node" },
+        ],
     },
-};
+});
