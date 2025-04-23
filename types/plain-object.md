@@ -2,6 +2,6 @@
 
 ```ts
 type plainObject<T = unknown> = {
-    readonly [key: string | number]: T
-}
+    readonly [key: string | number]: T;
+};
 ```

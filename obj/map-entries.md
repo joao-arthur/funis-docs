@@ -4,9 +4,9 @@
 function mapEntries<T>(
     obj: plainObject<T>,
     cb: (
-        entry: readonly [string | number, T]
+        entry: readonly [string | number, T],
     ) => readonly [string | number, T],
-): plainObject<T>
+): plainObject<T>;
 ```
 
 Map the object entries into an object.
@@ -17,12 +17,12 @@ Map the object entries into an object.
 obj.mapEntries(
     {
         a: 1,
-        b: 'two',
+        b: "two",
         c: true,
-        4: 'nada',
+        4: "nada",
     },
     ([key, value]) => [`key_${key}`, `value_${value}`],
-) /* {
+); /* {
     key_a: 'value_1',
     key_b: 'value_two',
     key_c: 'value_true',

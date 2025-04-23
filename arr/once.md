@@ -6,9 +6,9 @@ function once<const T>(
     cb: (
         item: T,
         index: number,
-        arr: readonly T[]
-    ) => boolean
-): boolean
+        arr: readonly T[],
+    ) => boolean,
+): boolean;
 ```
 
 Returns true if the callback returns true once. Returns false otherwise.
@@ -17,15 +17,15 @@ Returns true if the callback returns true once. Returns false otherwise.
 
 ```ts
 arr.once(
-    ['Axl', 'Slash', 'Duff', 'Buckethead'],
-    item => item === 'Roses'
-) // false
+    ["Axl", "Slash", "Duff", "Buckethead"],
+    (item) => item === "Roses",
+); // false
 arr.once(
-    ['Axl', 'Slash', 'Duff', 'Buckethead'],
-    item => item === 'Buckethead'
-) // true
+    ["Axl", "Slash", "Duff", "Buckethead"],
+    (item) => item === "Buckethead",
+); // true
 arr.once(
-    ['Axl', 'Slash', 'Duff', 'Buckethead'],
-    item => item.length > 2
-) // false
+    ["Axl", "Slash", "Duff", "Buckethead"],
+    (item) => item.length > 2,
+); // false
 ```

@@ -4,7 +4,7 @@
 function retry<V, E>(
     cb: () => Promise<V>,
     attempts: number,
-): Promise<V | undefined>
+): Promise<V | undefined>;
 ```
 
 Tries to resolve the promise for the number of especified attempts.
@@ -16,20 +16,21 @@ let i = 1;
 
 retry(() => {
     i++;
-    if (i === 5)
-        return Promise.resolve('Ludwig van Beethoven');
-    else
-        return Promise.reject('Johann Sebastian Bach');
-}, 10) // 'Ludwig van Beethoven'
+    if (i === 5) {
+        return Promise.resolve("Ludwig van Beethoven");
+    } else {
+        return Promise.reject("Johann Sebastian Bach");
+    }
+}, 10); // 'Ludwig van Beethoven'
 ```
 
 ```ts
 try {
     await prm.retry(
-        Promise.reject('Donatello'),
-        5
+        Promise.reject("Donatello"),
+        5,
     );
 } catch (e) {
-    e // 'Donatello'
+    e; // 'Donatello'
 }
 ```

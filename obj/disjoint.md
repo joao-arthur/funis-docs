@@ -2,8 +2,8 @@
 
 ```ts
 function disjoint(
-    objs: readonly plainObject[]
-): plainObject
+    objs: readonly plainObject[],
+): plainObject;
 ```
 
 Returns an object with the entries which the key appears in only one of them.
@@ -12,7 +12,7 @@ Returns an object with the entries which the key appears in only one of them.
 
 ```ts
 obj.disjoint([
-    { name: 'Steve Harris', country: 'UK' },
-    { name: 'Megadeth', foundation: 1983 },
-]) // { country: 'UK', foundation: 1983 }
+    { name: "Steve Harris", country: "UK" },
+    { name: "Megadeth", foundation: 1983 },
+]); // { country: 'UK', foundation: 1983 }
 ```

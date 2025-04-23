@@ -3,8 +3,8 @@
 ```ts
 function mapValues<const T>(
     obj: plainObject<T>,
-    cb: (value: T) => T
-): plainObject<T>
+    cb: (value: T) => T,
+): plainObject<T>;
 ```
 
 Map the object values into an object.
@@ -15,12 +15,12 @@ Map the object values into an object.
 obj.mapValues(
     {
         a: 1,
-        b: 'two',
+        b: "two",
         c: true,
-        4: 'nada',
+        4: "nada",
     },
-    value => value === true,
-) /* {
+    (value) => value === true,
+); /* {
     a: false,
     b: false,
     c: true,

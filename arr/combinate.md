@@ -3,7 +3,7 @@
 ```ts
 function combinate<const T>(
     arr: readonly T[],
-): readonly (readonly [T, T])[]
+): readonly (readonly [T, T])[];
 ```
 
 Returns an array with the non-repeating combination of the items.
@@ -11,12 +11,12 @@ Returns an array with the non-repeating combination of the items.
 ## Example
 
 ```ts
-arr.combinate([]) // []
-arr.combinate([10]) // []
+arr.combinate([]); // []
+arr.combinate([10]); // []
 ```
 
 ```ts
-arr.combinate([10, 20, 30, 40, 50]) /* [
+arr.combinate([10, 20, 30, 40, 50]); /* [
     [10, 20],
     [10, 30],
     [10, 40],

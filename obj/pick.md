@@ -4,7 +4,7 @@
 function pick<const T>(
     obj: plainObject<T>,
     keys: readonly string[],
-): plainObject<T>
+): plainObject<T>;
 ```
 
 Creates an object with only the passed keys.
@@ -13,14 +13,14 @@ Creates an object with only the passed keys.
 
 ```ts
 obj.pick(
-    { animal: 'dog', species: 'Canis lupus', age: 5 },
+    { animal: "dog", species: "Canis lupus", age: 5 },
     [],
-) // { }
+); // { }
 ```
 
 ```ts
 obj.pick(
-    { animal: 'dog', species: 'Canis lupus', age: 5 },
-    ['animal'],
-) // { animal: 'dog' }
+    { animal: "dog", species: "Canis lupus", age: 5 },
+    ["animal"],
+); // { animal: 'dog' }
 ```

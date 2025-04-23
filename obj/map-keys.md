@@ -3,8 +3,8 @@
 ```ts
 function mapKeys<T>(
     obj: plainObject<T>,
-    cb: (key: string | number) => string | number
-): plainObject<T>
+    cb: (key: string | number) => string | number,
+): plainObject<T>;
 ```
 
 Map the object keys into an object.
@@ -15,12 +15,12 @@ Map the object keys into an object.
 obj.mapKeys(
     {
         a: 1,
-        b: 'two',
+        b: "two",
         c: true,
-        4: 'nada',
+        4: "nada",
     },
-    key => `v2_${key}_test`,
-) /* {
+    (key) => `v2_${key}_test`,
+); /* {
     v2_a_test: 1,
     v2_b_test: 'two',
     v2_c_test: true,

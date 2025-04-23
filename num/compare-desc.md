@@ -1,7 +1,7 @@
 # compareDesc
 
 ```ts
-function compareDesc(a: number, b: number): number
+function compareDesc(a: number, b: number): number;
 ```
 
 Compare the numbers in descending order.
@@ -9,5 +9,5 @@ Compare the numbers in descending order.
 ## Example
 
 ```ts
-[1, 9, 2, 8, 3, 7, 4].sort(num.compareDesc) // [1, 2, 3, 4, 7, 8, 9]
+[1, 9, 2, 8, 3, 7, 4].sort(num.compareDesc); // [1, 2, 3, 4, 7, 8, 9]
 ```

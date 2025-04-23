@@ -3,25 +3,26 @@
 ```ts
 function groupToMap<K, V>(
     arr: readonly V[],
-    cb: (item: V) => K
-): Map<K, readonly V[]>
+    cb: (item: V) => K,
+): Map<K, readonly V[]>;
 ```
 
-Group the items by the returned value of the callback. Then return the groups in an Map instance.
+Group the items by the returned value of the callback. Then return the groups in
+an Map instance.
 
 ## Example
 
 ```ts
 arr.groupToMap(
     [
-        { type: 'grass', name: 'bulbasaur' },
-        { type: 'fire', name: 'charmander' },
-        { type: 'water', name: 'squirtle' },
-        { type: 'bug', name: 'caterpie' },
-        { type: 'water', name: 'psyduck' },
+        { type: "grass", name: "bulbasaur" },
+        { type: "fire", name: "charmander" },
+        { type: "water", name: "squirtle" },
+        { type: "bug", name: "caterpie" },
+        { type: "water", name: "psyduck" },
     ],
-    item => item.type,
-) /* Map {
+    (item) => item.type,
+); /* Map {
     grass -> [{ type: 'grass', name: 'bulbasaur' }],
     fire -> [{ type: 'fire', name: 'charmander' }],
     water -> [

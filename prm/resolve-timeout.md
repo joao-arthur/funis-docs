@@ -3,8 +3,8 @@
 ```ts
 function resolveTimeout<const T>(
     valueToResolve: T,
-    timeout: number
-): Promise<T>
+    timeout: number,
+): Promise<T>;
 ```
 
 Returns a promise that resolves after the timeout.
@@ -13,7 +13,7 @@ Returns a promise that resolves after the timeout.
 
 ```ts
 await prm.resolveTimeout(
-    'Hello, promise!',
-    500
-) // 'Hello, promise!'
+    "Hello, promise!",
+    500,
+); // 'Hello, promise!'
 ```

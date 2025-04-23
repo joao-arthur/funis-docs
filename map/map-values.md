@@ -3,8 +3,8 @@
 ```ts
 function mapValues<K, V>(
     map: Map<K, V>,
-    cb: (value: V) => V
-): Map<K, V>
+    cb: (value: V) => V,
+): Map<K, V>;
 ```
 
 Map the _Map instance_ values into a new _Map instance_.
@@ -14,13 +14,13 @@ Map the _Map instance_ values into a new _Map instance_.
 ```ts
 map.mapValues(
     new Map([
-        ['a', 1],
-        ['b', 'two'],
-        ['c', true],
-        [4, 'nada'],
+        ["a", 1],
+        ["b", "two"],
+        ["c", true],
+        [4, "nada"],
     ]),
-    value => value === true,
-) /* Map {
+    (value) => value === true,
+); /* Map {
     a -> false,
     b -> false,
     c -> true,

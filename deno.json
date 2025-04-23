@@ -1,25 +1,21 @@
 {
     "fmt": {
         "include": [
+            "src/",
             "arr/",
+            "cb/",
+            "chr/",
+            "map/",
+            "num/",
+            "obj/",
+            "prm/",
+            "std/",
+            "str/",
+            "types/",
             "index.md",
-            ".vitepress/config.ts",
-            "changelog"
+            "readme.md"
         ],
-        "lineWidth": 100,
+        "lineWidth": 80,
         "indentWidth": 4
-    },
-    "lint": {
-        "include": [
-            "index.md",
-            ".vitepress/config.js",
-            "changelog"
-        ],
-        "rules": {
-            "include": [
-                "explicit-function-return-type",
-                "default-param-last"
-            ]
-        }
     }
 }

@@ -3,8 +3,8 @@
 ```ts
 function rejectTimeout<const T>(
     valueToReject: T,
-    timeout: number
-): Promise<T>
+    timeout: number,
+): Promise<T>;
 ```
 
 Returns a promise that rejects after the timeout.
@@ -14,10 +14,10 @@ Returns a promise that rejects after the timeout.
 ```ts
 try {
     await prm.resolveTimeout(
-        'Hello, promise!',
-        500
+        "Hello, promise!",
+        500,
     );
 } catch (e) {
-    e // 'Hello, promise!'
+    e; // 'Hello, promise!'
 }
 ```

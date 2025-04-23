@@ -13,13 +13,13 @@ function compose<T1, T2, T3>(
 ...
 ```
 
-Returns a function that apply the result of each function to the next one in the opposite order they are defined.
+Returns a function that apply the result of each function to the next one in the
+opposite order they are defined.
 
-::: info
-Typescript does not infer the type of the function arguments as you would expect.
+::: info Typescript does not infer the type of the function arguments as you
+would expect.
 
-You have to explicit type all but the first function argument 😰.
-:::
+You have to explicit type all but the first function argument 😰. :::
 
 ## Example
 

@@ -3,25 +3,26 @@
 ```ts
 function groupToEntries<K, V>(
     arr: readonly V[],
-    cb: (item: V) => K
-): readonly (readonly [K, readonly V[]])[]
+    cb: (item: V) => K,
+): readonly (readonly [K, readonly V[]])[];
 ```
 
-Group the items by the returned value of the callback. Then return the groups in entries.
+Group the items by the returned value of the callback. Then return the groups in
+entries.
 
 ## Example
 
 ```ts
 arr.groupToEntries(
     [
-        { type: 'grass', name: 'bulbasaur' },
-        { type: 'fire', name: 'charmander' },
-        { type: 'water', name: 'squirtle' },
-        { type: 'bug', name: 'caterpie' },
-        { type: 'water', name: 'psyduck' },
+        { type: "grass", name: "bulbasaur" },
+        { type: "fire", name: "charmander" },
+        { type: "water", name: "squirtle" },
+        { type: "bug", name: "caterpie" },
+        { type: "water", name: "psyduck" },
     ],
-    item => item.type,
-) /* [
+    (item) => item.type,
+); /* [
     ['grass', [{ type: 'grass', name: 'bulbasaur' }]],
     ['fire', [{ type: 'fire', name: 'charmander' }]],
     ['water', [
