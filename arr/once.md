@@ -1,4 +1,4 @@
-# once
+# arr.once
 
 ```ts
 function once<const T>(
@@ -11,7 +11,7 @@ function once<const T>(
 ): boolean;
 ```
 
-Returns true if the callback returns true once. Returns false otherwise.
+Returns true if the callback returns **true once**. Returns **false otherwise**.
 
 ## Example
 

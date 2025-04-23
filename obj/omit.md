@@ -1,4 +1,4 @@
-# omit
+# obj.omit
 
 ```ts
 function omit<const T>(
@@ -7,7 +7,7 @@ function omit<const T>(
 ): plainObject<T>;
 ```
 
-Creates an object without the passed keys.
+Returns a new _object_ without the entries whose key matches the passed keys.
 
 ## Example
 

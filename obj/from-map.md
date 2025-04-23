@@ -1,4 +1,4 @@
-# fromMap
+# obj.fromMap
 
 ```ts
 function fromMap<const T>(
@@ -6,7 +6,7 @@ function fromMap<const T>(
 ): plainObject<T>;
 ```
 
-Returns an object with the same key-value pairs of the passed Map instance.
+Returns an _object_ with the same entries of the passed _Map_ instance.
 
 ## Example
 

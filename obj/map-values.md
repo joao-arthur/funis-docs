@@ -1,4 +1,4 @@
-# mapValues
+# obj.mapValues
 
 ```ts
 function mapValues<const T>(
@@ -7,7 +7,7 @@ function mapValues<const T>(
 ): plainObject<T>;
 ```
 
-Map the object values into an object.
+Map the _object_ **values** into a new _object_.
 
 ## Example
 

@@ -1,4 +1,4 @@
-# mapEntries
+# obj.mapEntries
 
 ```ts
 function mapEntries<T>(
@@ -9,7 +9,7 @@ function mapEntries<T>(
 ): plainObject<T>;
 ```
 
-Map the object entries into an object.
+Map the _object_ **entries** into a new _object_.
 
 ## Example
 

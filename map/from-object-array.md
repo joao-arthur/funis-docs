@@ -1,4 +1,4 @@
-# fromObjectArray
+# map.fromObjectArray
 
 ```ts
 function fromObjectArray<const T, const Id extends keyof T>(
@@ -7,13 +7,13 @@ function fromObjectArray<const T, const Id extends keyof T>(
 ): Map<Id, T>;
 ```
 
-Returns a Map instance with the items, using the passed prop of the objects as
-keys.
+Returns a _Map_ instance with the items, using the passed prop of the _objects_
+as keys.
 
 ## Example
 
 ```ts
-map.fromObjectArray([], "id"); // Map { }
+map.fromObjectArray([], "id"); // _Map_ { }
 ```
 
 ```ts

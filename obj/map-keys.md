@@ -1,4 +1,4 @@
-# mapKeys
+# obj.mapKeys
 
 ```ts
 function mapKeys<T>(
@@ -7,7 +7,7 @@ function mapKeys<T>(
 ): plainObject<T>;
 ```
 
-Map the object keys into an object.
+Map the _object_ **keys** into a new _object_.
 
 ## Example
 

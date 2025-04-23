@@ -1,4 +1,4 @@
-# groupToObject
+# arr.groupToObject
 
 ```ts
 function groupToObject<K, V>(
@@ -8,7 +8,7 @@ function groupToObject<K, V>(
 ```
 
 Group the items by the returned value of the callback. Then return the groups in
-an plain object.
+an **plain object**.
 
 ## Example
 

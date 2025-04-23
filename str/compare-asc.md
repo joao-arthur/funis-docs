@@ -1,10 +1,10 @@
-# compareAsc
+# str.compareAsc
 
 ```ts
 function compareAsc(a: number, b: number): number;
 ```
 
-Compare the strings in ascending order.
+Compare the strings in **ascending order**.
 
 ## Example
 

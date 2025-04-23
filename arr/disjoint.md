@@ -1,4 +1,4 @@
-# disjoint
+# arr.disjoint
 
 ```ts
 function disjoint<const T>(
@@ -6,7 +6,7 @@ function disjoint<const T>(
 ): readonly T[];
 ```
 
-Returns an array with the items that appear in only one array.
+Returns a new _array_ with the items that are **unique to every array**.
 
 ## Example
 

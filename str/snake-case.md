@@ -1,10 +1,10 @@
-# snakeCase
+# str.snakeCase
 
 ```ts
 function snakeCase(str: string): string;
 ```
 
-Transforms a sequence of words into snake case.
+Transforms a sequence of words into **snake case**.
 
 ## Example
 

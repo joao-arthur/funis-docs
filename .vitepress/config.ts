@@ -50,6 +50,7 @@ export default defineConfig({
                     { text: "keys", link: "/map/keys" },
                     { text: "values", link: "/map/values" },
                     { text: "fromObject", link: "/map/from-object" },
+                    { text: "fromObjectArray", link: "/map/from-object-array" },
                 ],
             },
             {
@@ -64,6 +65,7 @@ export default defineConfig({
                     { text: "compareAsc", link: "/num/compare-asc" },
                     { text: "compareDesc", link: "/num/compare-desc" },
                     { text: "normalizeZero", link: "/num/normalize-zero" },
+                    { text: "toFixed", link: "/num/to-fixed" },
                 ],
             },
             {

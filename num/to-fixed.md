@@ -1,10 +1,10 @@
-# toFixed
+# num.toFixed
 
 ```ts
 function toFixed(num: number, digits: number): number;
 ```
 
-Wrapper of the toFixed function with a cast to number.
+Wrapper of the _toFixed_ function with a **cast** to number.
 
 ## Example
 

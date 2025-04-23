@@ -1,4 +1,4 @@
-# self
+# std.self
 
 ```ts
 function self<const T>(value: T): T;

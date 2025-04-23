@@ -1,10 +1,10 @@
-# random
+# str.random
 
 ```ts
 function random(str: string): string;
 ```
 
-Returns a random character of the string.
+Returns a **random character** of the string.
 
 ## Example
 

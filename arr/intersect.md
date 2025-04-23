@@ -1,4 +1,4 @@
-# intersect
+# arr.intersect
 
 ```ts
 function intersect<const T>(
@@ -6,7 +6,7 @@ function intersect<const T>(
 ): readonly T[];
 ```
 
-Returns an array with the items that appear in every array.
+Returns a new _array_ with the items that are **in every array**.
 
 ## Example
 

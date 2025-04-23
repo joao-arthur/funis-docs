@@ -1,4 +1,4 @@
-# compose
+# std.compose
 
 ```ts
 function compose<T1, T2>(

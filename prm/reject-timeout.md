@@ -1,4 +1,4 @@
-# rejectTimeout
+# prm.rejectTimeout
 
 ```ts
 function rejectTimeout<const T>(
@@ -7,7 +7,7 @@ function rejectTimeout<const T>(
 ): Promise<T>;
 ```
 
-Returns a promise that rejects after the timeout.
+Returns a promise **that rejects** after the timeout.
 
 ## Example
 

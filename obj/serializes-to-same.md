@@ -1,4 +1,4 @@
-# serializesToSame
+# obj.serializesToSame
 
 ```ts
 function serializesToSame(
@@ -6,7 +6,7 @@ function serializesToSame(
 ): boolean;
 ```
 
-Returns whether the [serialized](./serialize.md) version of every object are
+Returns whether the [serialized](./serialize.md) version of every _object_ is
 equal or not.
 
 ## Example

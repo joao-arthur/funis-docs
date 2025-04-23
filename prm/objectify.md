@@ -1,4 +1,4 @@
-# objectify
+# prm.objectify
 
 ```ts
 type returnType<V, E> = {
@@ -16,8 +16,8 @@ function objectify<V, E>(
 ): Promise<returnType<V, E>>;
 ```
 
-Returns an object with value and error entries corrensponding to resolved or
-rejected value of the promise.
+Returns a _object_ with **value and error** entries corrensponding to resolved
+or rejected value of the promise.
 
 ## Example
 

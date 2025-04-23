@@ -1,4 +1,4 @@
-# range
+# num.range
 
 ```ts
 function range(
@@ -8,8 +8,8 @@ function range(
 ): readonly number[];
 ```
 
-Returns a range from a number to another, respecting the step between each
-value.
+Returns a **range** from a number to another, respecting the **step** between
+each value.
 
 ## Example
 

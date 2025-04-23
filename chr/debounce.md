@@ -1,4 +1,4 @@
-# debounce
+# chr.debounce
 
 ```ts
 function debounce(
@@ -10,8 +10,8 @@ function debounce(
 Returns a function that executes the callback after the timeout. The returned
 value is the timeout id.
 
-Whenever the returned function is called during the timeout period, the timeout
-resets.
+Whenever the returned function is called **during the timeout** period, the
+**timeout resets**.
 
 ## Example
 

@@ -1,4 +1,4 @@
-# retry
+# prm.retry
 
 ```ts
 function retry<V, E>(
@@ -7,7 +7,7 @@ function retry<V, E>(
 ): Promise<V | undefined>;
 ```
 
-Tries to resolve the promise for the number of especified attempts.
+Tries to resolve the promise for the number of specified attempts.
 
 ## Example
 

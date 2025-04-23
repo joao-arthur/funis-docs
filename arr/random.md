@@ -1,10 +1,10 @@
-# random
+# arr.random
 
 ```ts
 random<const T>(arr: readonly T[]): T | undefined
 ```
 
-Returns a random character of the array.
+Returns a **random item** of the array.
 
 ## Example
 

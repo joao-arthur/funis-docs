@@ -1,4 +1,4 @@
-# combinate
+# arr.combinate
 
 ```ts
 function combinate<const T>(
@@ -6,7 +6,7 @@ function combinate<const T>(
 ): readonly (readonly [T, T])[];
 ```
 
-Returns an array with the non-repeating combination of the items.
+Returns a new _array_ with the **non-repeating combination** of the items.
 
 ## Example
 

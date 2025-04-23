@@ -1,4 +1,4 @@
-# entries
+# map.entries
 
 ```ts
 function entries<K, V>(
@@ -6,7 +6,7 @@ function entries<K, V>(
 ): readonly (readonly [K, V])[];
 ```
 
-Returns the entries of the Map instance.
+Returns the **entries** of the _Map_ instance.
 
 ## Example
 

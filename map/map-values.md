@@ -1,4 +1,4 @@
-# mapValues
+# map.mapValues
 
 ```ts
 function mapValues<K, V>(
@@ -7,7 +7,7 @@ function mapValues<K, V>(
 ): Map<K, V>;
 ```
 
-Map the _Map instance_ values into a new _Map instance_.
+Map the _Map_ **values** into a new _Map_.
 
 ## Example
 

@@ -1,10 +1,10 @@
-# values
+# map.values
 
 ```ts
 function values<K, V>(map: Map<K, V>): readonly V[];
 ```
 
-Returns the values of the Map instance entries.
+Returns the **values** of the _Map_ instance entries.
 
 ## Example
 

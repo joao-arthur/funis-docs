@@ -1,4 +1,4 @@
-# isValid
+# num.isValid
 
 ```ts
 function isValid(num: number | undefined | null): boolean;

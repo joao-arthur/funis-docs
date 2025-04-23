@@ -1,4 +1,4 @@
-# groupToArray
+# arr.groupToArray
 
 ```ts
 function groupToArray<K, V>(
@@ -7,8 +7,8 @@ function groupToArray<K, V>(
 ): readonly (readonly V[])[];
 ```
 
-Group the items by the returned value of the callback. Then return the groups in
-an array.
+Group the items by the returned value of the **callback**. Then return the
+groups in a new **array**.
 
 ## Example
 

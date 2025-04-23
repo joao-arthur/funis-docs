@@ -1,4 +1,4 @@
-# throttle
+# chr.throttle
 
 ```ts
 function throttle(
@@ -10,8 +10,8 @@ function throttle(
 Returns a function that executes the callback after the timeout. The returned
 value is the timeout id.
 
-Whenever the returned function is called during the timeout period, the function
-call is ignored.
+Whenever the returned function is called **during the timeout** period, the
+function call is **ignored**.
 
 ## Example
 

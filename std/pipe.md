@@ -1,4 +1,4 @@
-# pipe
+# std.pipe
 
 ```ts
 function pipe<T1, T2>(

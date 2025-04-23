@@ -1,4 +1,4 @@
-# groupToMap
+# arr.groupToMap
 
 ```ts
 function groupToMap<K, V>(
@@ -7,8 +7,8 @@ function groupToMap<K, V>(
 ): Map<K, readonly V[]>;
 ```
 
-Group the items by the returned value of the callback. Then return the groups in
-an Map instance.
+Group the items by the returned value of the **callback**. Then return the
+groups in an **Map** instance.
 
 ## Example
 

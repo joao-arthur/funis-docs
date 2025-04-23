@@ -1,4 +1,4 @@
-# isValid
+# str.isValid
 
 ```ts
 function isValid(str: string | undefined | null): boolean;

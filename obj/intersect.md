@@ -1,4 +1,4 @@
-# intersect
+# obj.intersect
 
 ```ts
 function intersect(
@@ -6,7 +6,7 @@ function intersect(
 ): plainObject;
 ```
 
-Returns an object with the entries that appear in all of them.
+Returns a new _object_ with the entries which the key are **in every object**.
 
 ## Example
 

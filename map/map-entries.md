@@ -1,4 +1,4 @@
-# mapEntries
+# map.mapEntries
 
 ```ts
 function mapEntries<K, V>(
@@ -7,7 +7,7 @@ function mapEntries<K, V>(
 ): Map<K, V>;
 ```
 
-Map the _Map instance_ entries into a new _Map instance_.
+Map the _Map_ **entries** into a new _Map_.
 
 ## Example
 

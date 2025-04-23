@@ -1,10 +1,10 @@
-# last
+# prm.last
 
 ```ts
 function last<const T>(promises: readonly Promise<T>[]): Promise<T>;
 ```
 
-Returns the last promise to resolve/reject.
+Returns the last promise to **resolve or reject**.
 
 ::: warning This function sets a _then_ and _catch_ callback for every passed
 promise.

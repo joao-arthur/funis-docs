@@ -1,10 +1,10 @@
-# compareDesc
+# num.compareDesc
 
 ```ts
 function compareDesc(a: number, b: number): number;
 ```
 
-Compare the numbers in descending order.
+Compare the numbers in **descending order**.
 
 ## Example
 

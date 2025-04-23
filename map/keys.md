@@ -1,10 +1,10 @@
-# keys
+# map.keys
 
 ```ts
 function keys<K, V>(map: Map<K, V>): readonly K[];
 ```
 
-Returns the keys of the Map instance entries.
+Returns the **keys** of the _Map_ instance entries.
 
 ## Example
 

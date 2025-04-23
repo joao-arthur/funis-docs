@@ -1,4 +1,4 @@
-# lazyRange
+# num.lazyRange
 
 ```ts
 function lazyRange(
@@ -8,8 +8,8 @@ function lazyRange(
 ): IterableIterator<number>;
 ```
 
-Returns an iterable range from a number to another, respecting the step between
-each value.
+Returns an **iterable range** from a number to another, respecting the **step**
+between each value.
 
 ## Example
 

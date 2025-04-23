@@ -1,15 +1,15 @@
-# fromObject
+# map.fromObject
 
 ```ts
 function fromObject<const T>(obj: plainObject<T>): Map<string | number, T>;
 ```
 
-Returns a Map instance with the same key-value pairs of the passed object.
+Returns a _Map_ instance with the same entries of the passed _object_.
 
 ## Example
 
 ```ts
-map.fromObject({}); // Map { }
+map.fromObject({}); // _Map_ { }
 ```
 
 ```ts

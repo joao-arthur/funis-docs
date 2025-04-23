@@ -1,4 +1,4 @@
-# pick
+# obj.pick
 
 ```ts
 function pick<const T>(
@@ -7,7 +7,7 @@ function pick<const T>(
 ): plainObject<T>;
 ```
 
-Creates an object with only the passed keys.
+Returns a new _object_ with the entries whose key matches the passed keys.
 
 ## Example
 

@@ -1,10 +1,10 @@
-# unique
+# arr.unique
 
 ```ts
 function unique<const T>(arr: readonly T[]): readonly T[];
 ```
 
-Returns an array with the unique values.
+Returns a new _array_ **without duplicated** values.
 
 ## Example
 

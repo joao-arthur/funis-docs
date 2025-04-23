@@ -1,4 +1,4 @@
-# resolveTimeout
+# prm.resolveTimeout
 
 ```ts
 function resolveTimeout<const T>(
@@ -7,7 +7,7 @@ function resolveTimeout<const T>(
 ): Promise<T>;
 ```
 
-Returns a promise that resolves after the timeout.
+Returns a promise **that resolves** after the timeout.
 
 ## Example
 

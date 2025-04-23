@@ -1,10 +1,10 @@
-# kebabCase
+# str.kebabCase
 
 ```ts
 function kebabCase(str: string): string;
 ```
 
-Transforms a sequence of words into kebab case.
+Transforms a sequence of words into **kebab case**.
 
 ## Example
 

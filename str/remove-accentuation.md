@@ -1,4 +1,4 @@
-# removeAccentuation
+# str.removeAccentuation
 
 ```ts
 function removeAccentuation(str: string): string;

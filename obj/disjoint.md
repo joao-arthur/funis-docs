@@ -1,4 +1,4 @@
-# disjoint
+# obj.disjoint
 
 ```ts
 function disjoint(
@@ -6,7 +6,8 @@ function disjoint(
 ): plainObject;
 ```
 
-Returns an object with the entries which the key appears in only one of them.
+Returns a new _object_ with the entries which the key is **unique to every
+object**.
 
 ## Example
 

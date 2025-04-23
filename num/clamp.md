@@ -1,4 +1,4 @@
-# clamp
+# num.clamp
 
 ```ts
 type clampOptions = {
@@ -13,11 +13,11 @@ type clampOptions = {
 function clamp(num: number, options: clampOptions): number;
 ```
 
-If min is passed and the number is smaller than min, returns min.
+If min is passed and the number is **smaller** than min, returns **min**.
 
-If max is passed and the number is bigger than max, returns max.
+If max is passed and the number is **bigger** than max, returns **max**.
 
-Returns the passed value otherwise.
+Returns the **passed value otherwise**.
 
 ## Example
 
