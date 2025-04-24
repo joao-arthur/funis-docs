@@ -14,212 +14,129 @@ export default defineConfig({
                         collapsed: false,
                         items: [
                             {
-                                text: "arr",
+                                text: "array",
+                                collapsed: false,
                                 items: [
-                                    { text: "unique", link: "/arr/unique" },
-                                    { text: "once", link: "/arr/once" },
-                                    { text: "disjoint", link: "/arr/disjoint" },
-                                    {
-                                        text: "intersect",
-                                        link: "/arr/intersect",
-                                    },
-                                    {
-                                        text: "groupToEntries",
-                                        link: "/arr/group-to-entries",
-                                    },
-                                    {
-                                        text: "groupToArray",
-                                        link: "/arr/group-to-array",
-                                    },
-                                    {
-                                        text: "groupToMap",
-                                        link: "/arr/group-to-map",
-                                    },
-                                    {
-                                        text: "groupToObject",
-                                        link: "/arr/group-to-object",
-                                    },
-                                    {
-                                        text: "combinate",
-                                        link: "/arr/combinate",
-                                    },
-                                    { text: "random", link: "/arr/random" },
-                                    { text: "repeat", link: "/arr/repeat" },
+                                    { text: "unique", link: "/2.0.0/array/unique" },
+                                    { text: "once", link: "/2.0.0/array/once" },
+                                    { text: "disjoint", link: "/2.0.0/array/disjoint" },
+                                    { text: "intersect", link: "/2.0.0/array/intersect" },
+                                    { text: "group_to_entries", link: "/2.0.0/array/group_to_entries" },
+                                    { text: "group_to_array", link: "/2.0.0/array/group_to_array" },
+                                    { text: "group_to_map", link: "/2.0.0/array/group_to_map" },
+                                    { text: "group_to_object", link: "/2.0.0/array/group_to_object" },
+                                    { text: "combinate", link: "/2.0.0/array/combinate" },
+                                    { text: "random", link: "/2.0.0/array/random" },
+                                    { text: "repeat", link: "/2.0.0/array/repeat" },
                                 ],
                             },
                             {
-                                text: "cb",
+                                text: "callback",
+                                collapsed: false,
                                 items: [
-                                    { text: "eq", link: "/cb/eq" },
-                                    { text: "ne", link: "/cb/ne" },
-                                    { text: "gt", link: "/cb/gt" },
-                                    { text: "ge", link: "/cb/ge" },
-                                    { text: "lt", link: "/cb/lt" },
-                                    { text: "le", link: "/cb/le" },
+                                    { text: "eq", link: "/2.0.0/callback/eq" },
+                                    { text: "ne", link: "/2.0.0/callback/ne" },
+                                    { text: "gt", link: "/2.0.0/callback/gt" },
+                                    { text: "ge", link: "/2.0.0/callback/ge" },
+                                    { text: "lt", link: "/2.0.0/callback/lt" },
+                                    { text: "le", link: "/2.0.0/callback/le" },
                                 ],
                             },
                             {
-                                text: "chr",
+                                text: "chrono",
+                                collapsed: false,
                                 items: [
-                                    { text: "debounce", link: "/chr/debounce" },
-                                    { text: "throttle", link: "/chr/throttle" },
+                                    { text: "debounce", link: "/2.0.0/chrono/debounce" },
+                                    { text: "throttle", link: "/2.0.0/chrono/throttle" },
                                 ],
                             },
                             {
                                 text: "map",
+                                collapsed: false,
                                 items: [
-                                    {
-                                        text: "mapEntries",
-                                        link: "/map/map-entries",
-                                    },
-                                    { text: "mapKeys", link: "/map/map-keys" },
-                                    {
-                                        text: "mapValues",
-                                        link: "/map/map-values",
-                                    },
-                                    { text: "entries", link: "/map/entries" },
-                                    { text: "keys", link: "/map/keys" },
-                                    { text: "values", link: "/map/values" },
-                                    {
-                                        text: "fromObject",
-                                        link: "/map/from-object",
-                                    },
-                                    {
-                                        text: "fromObjectArray",
-                                        link: "/map/from-object-array",
-                                    },
+                                    { text: "map_entries", link: "/2.0.0/map/map_entries" },
+                                    { text: "map_keys", link: "/2.0.0/map/map_keys" },
+                                    { text: "map_values", link: "/2.0.0/map/map_values" },
+                                    { text: "entries", link: "/2.0.0/map/entries" },
+                                    { text: "keys", link: "/2.0.0/map/keys" },
+                                    { text: "values", link: "/2.0.0/map/values" },
+                                    { text: "from_object", link: "/2.0.0/map/from_object" },
+                                    { text: "from_object_array", link: "/2.0.0/map/from_object_array" },
                                 ],
                             },
                             {
-                                text: "num",
+                                text: "number",
+                                collapsed: false,
                                 items: [
-                                    { text: "clamp", link: "/num/clamp" },
-                                    { text: "parse", link: "/num/parse" },
-                                    { text: "range", link: "/num/range" },
-                                    {
-                                        text: "lazyRange",
-                                        link: "/num/lazy-range",
-                                    },
-                                    { text: "isValid", link: "/num/is-valid" },
-                                    { text: "random", link: "/num/random" },
-                                    {
-                                        text: "compareAsc",
-                                        link: "/num/compare-asc",
-                                    },
-                                    {
-                                        text: "compareDesc",
-                                        link: "/num/compare-desc",
-                                    },
-                                    {
-                                        text: "normalizeZero",
-                                        link: "/num/normalize-zero",
-                                    },
-                                    { text: "toFixed", link: "/num/to-fixed" },
+                                    { text: "clamp", link: "/2.0.0/number/clamp" },
+                                    { text: "parse", link: "/2.0.0/number/parse" },
+                                    { text: "range", link: "/2.0.0/number/range" },
+                                    { text: "lazy_range", link: "/2.0.0/number/lazy_range" },
+                                    { text: "is_valid", link: "/2.0.0/number/is_valid" },
+                                    { text: "random", link: "/2.0.0/number/random" },
+                                    { text: "compare_asc", link: "/2.0.0/number/compare_asc" },
+                                    { text: "compare_desc", link: "/2.0.0/number/compare_desc" },
+                                    { text: "normalize_zero", link: "/2.0.0/number/normalize_zero" },
+                                    { text: "toFixed", link: "/2.0.0/number/to_fixed" },
                                 ],
                             },
                             {
-                                text: "obj",
+                                text: "object",
+                                collapsed: false,
                                 items: [
-                                    {
-                                        text: "mapEntries",
-                                        link: "/obj/map-entries",
-                                    },
-                                    { text: "mapKeys", link: "/obj/map-keys" },
-                                    {
-                                        text: "mapValues",
-                                        link: "/obj/map-values",
-                                    },
-                                    {
-                                        text: "serialize",
-                                        link: "/obj/serialize",
-                                    },
-                                    {
-                                        text: "serializesToSame",
-                                        link: "/obj/serializes-to-same",
-                                    },
-                                    { text: "fromMap", link: "/obj/from-map" },
-                                    { text: "pick", link: "/obj/pick" },
-                                    { text: "omit", link: "/obj/omit" },
-                                    { text: "disjoint", link: "/obj/disjoint" },
-                                    {
-                                        text: "intersect",
-                                        link: "/obj/intersect",
-                                    },
+                                    { text: "map_entries", link: "/2.0.0/object/map_entries" },
+                                    { text: "map_keys", link: "/2.0.0/object/map_keys" },
+                                    { text: "map_values", link: "/2.0.0/object/map_values" },
+                                    { text: "serialize", link: "/2.0.0/object/serialize" },
+                                    { text: "serializes_to_same", link: "/2.0.0/object/serializes_to_same" },
+                                    { text: "from_map", link: "/2.0.0/object/from_map" },
+                                    { text: "pick", link: "/2.0.0/object/pick" },
+                                    { text: "omit", link: "/2.0.0/object/omit" },
+                                    { text: "disjoint", link: "/2.0.0/object/disjoint" },
+                                    { text: "intersect", link: "/2.0.0/object/intersect" },
                                 ],
                             },
                             {
-                                text: "prm",
+                                text: "promise",
+                                collapsed: false,
                                 items: [
-                                    { text: "last", link: "/prm/last" },
-                                    {
-                                        text: "resolveTimeout",
-                                        link: "/prm/resolve-timeout",
-                                    },
-                                    {
-                                        text: "rejectTimeout",
-                                        link: "/prm/reject-timeout",
-                                    },
-                                    {
-                                        text: "objectify",
-                                        link: "/prm/objectify",
-                                    },
-                                    { text: "retry", link: "/prm/retry" },
+                                    { text: "last", link: "/2.0.0/promise/last" },
+                                    { text: "resolve_timeout", link: "/2.0.0/promise/resolve_timeout" },
+                                    { text: "reject_timeout", link: "/2.0.0/promise/reject_timeout" },
+                                    { text: "objectify", link: "/2.0.0/promise/objectify" },
+                                    { text: "retry", link: "/2.0.0/promise/retry" },
                                 ],
                             },
                             {
                                 text: "std",
+                                collapsed: false,
                                 items: [
-                                    { text: "compose", link: "/std/compose" },
-                                    { text: "pipe", link: "/std/pipe" },
-                                    { text: "self", link: "/std/self" },
+                                    { text: "compose", link: "/2.0.0/std/compose" },
+                                    { text: "pipe", link: "/2.0.0/std/pipe" },
+                                    { text: "self", link: "/2.0.0/std/self" },
                                 ],
                             },
                             {
-                                text: "str",
+                                text: "string",
+                                collapsed: false,
                                 items: [
-                                    {
-                                        text: "camelCase",
-                                        link: "/str/camel-case",
-                                    },
-                                    {
-                                        text: "pascalCase",
-                                        link: "/str/pascal-case",
-                                    },
-                                    {
-                                        text: "kebabCase",
-                                        link: "/str/kebab-case",
-                                    },
-                                    {
-                                        text: "snakeCase",
-                                        link: "/str/snake-case",
-                                    },
-                                    {
-                                        text: "replaceAccentuation",
-                                        link: "/str/replace-accentuation",
-                                    },
-                                    {
-                                        text: "removeAccentuation",
-                                        link: "/str/remove-accentuation",
-                                    },
-                                    { text: "isValid", link: "/str/is-valid" },
-                                    { text: "random", link: "/str/random" },
-                                    {
-                                        text: "compareAsc",
-                                        link: "/str/compare-asc",
-                                    },
-                                    {
-                                        text: "compareDesc",
-                                        link: "/str/compare-desc",
-                                    },
+                                    { text: "camel_case", link: "/2.0.0/string/camel_case" },
+                                    { text: "pascal_case", link: "/2.0.0/string/pascal_case" },
+                                    { text: "kebab_case", link: "/2.0.0/string/kebab_case" },
+                                    { text: "snake_case", link: "/2.0.0/string/snake_case" },
+                                    { text: "replace_accentuation", link: "/2.0.0/string/replace_accentuation" },
+                                    { text: "remove_accentuation", link: "/2.0.0/string/remove_accentuation" },
+                                    { text: "is_valid", link: "/2.0.0/string/is_valid" },
+                                    { text: "random", link: "/2.0.0/string/random" },
+                                    { text: "compare_asc", link: "/2.0.0/string/compare_asc" },
+                                    { text: "compare_desc", link: "/2.0.0/string/compare_desc" },
                                 ],
                             },
                             {
                                 text: "types",
+                                collapsed: false,
                                 items: [
-                                    {
-                                        text: "plainObject",
-                                        link: "/types/plain-object",
-                                    },
+                                    { text: "plain_object", link: "/2.0.0/types/plain_object" },
                                 ],
                             },
                         ],
@@ -230,327 +147,127 @@ export default defineConfig({
                         items: [
                             {
                                 text: "arr",
+                                collapsed: false,
                                 items: [
-                                    {
-                                        text: "unique",
-                                        link: "/version/1.2.0/arr/unique",
-                                    },
-                                    {
-                                        text: "once",
-                                        link: "/version/1.2.0/arr/once",
-                                    },
-                                    {
-                                        text: "disjoint",
-                                        link: "/version/1.2.0/arr/disjoint",
-                                    },
-                                    {
-                                        text: "intersect",
-                                        link: "/version/1.2.0/arr/intersect",
-                                    },
-                                    {
-                                        text: "groupToEntries",
-                                        link:
-                                            "/version/1.2.0/arr/group-to-entries",
-                                    },
-                                    {
-                                        text: "groupToArray",
-                                        link:
-                                            "/version/1.2.0/arr/group-to-array",
-                                    },
-                                    {
-                                        text: "groupToMap",
-                                        link: "/version/1.2.0/arr/group-to-map",
-                                    },
-                                    {
-                                        text: "groupToObject",
-                                        link:
-                                            "/version/1.2.0/arr/group-to-object",
-                                    },
-                                    {
-                                        text: "combinate",
-                                        link: "/version/1.2.0/arr/combinate",
-                                    },
-                                    {
-                                        text: "random",
-                                        link: "/version/1.2.0/arr/random",
-                                    },
-                                    {
-                                        text: "repeat",
-                                        link: "/version/1.2.0/arr/repeat",
-                                    },
+                                    { text: "unique", link: "/1.2.0/arr/unique" },
+                                    { text: "once", link: "/1.2.0/arr/once" },
+                                    { text: "disjoint", link: "/1.2.0/arr/disjoint" },
+                                    { text: "intersect", link: "/1.2.0/arr/intersect" },
+                                    { text: "groupToEntries", link: "/1.2.0/arr/group-to-entries" },
+                                    { text: "groupToArray", link: "/1.2.0/arr/group-to-array" },
+                                    { text: "groupToMap", link: "/1.2.0/arr/group-to-map" },
+                                    { text: "groupToObject", link: "/1.2.0/arr/group-to-object" },
+                                    { text: "combinate", link: "/1.2.0/arr/combinate" },
+                                    { text: "random", link: "/1.2.0/arr/random" },
+                                    { text: "repeat", link: "/1.2.0/arr/repeat" },
                                 ],
                             },
                             {
                                 text: "cb",
+                                collapsed: false,
                                 items: [
-                                    {
-                                        text: "eq",
-                                        link: "/version/1.2.0/cb/eq",
-                                    },
-                                    {
-                                        text: "ne",
-                                        link: "/version/1.2.0/cb/ne",
-                                    },
-                                    {
-                                        text: "gt",
-                                        link: "/version/1.2.0/cb/gt",
-                                    },
-                                    {
-                                        text: "ge",
-                                        link: "/version/1.2.0/cb/ge",
-                                    },
-                                    {
-                                        text: "lt",
-                                        link: "/version/1.2.0/cb/lt",
-                                    },
-                                    {
-                                        text: "le",
-                                        link: "/version/1.2.0/cb/le",
-                                    },
+                                    { text: "eq", link: "/1.2.0/cb/eq" },
+                                    { text: "ne", link: "/1.2.0/cb/ne" },
+                                    { text: "gt", link: "/1.2.0/cb/gt" },
+                                    { text: "ge", link: "/1.2.0/cb/ge" },
+                                    { text: "lt", link: "/1.2.0/cb/lt" },
+                                    { text: "le", link: "/1.2.0/cb/le" },
                                 ],
                             },
                             {
                                 text: "chr",
+                                collapsed: false,
                                 items: [
-                                    {
-                                        text: "debounce",
-                                        link: "/version/1.2.0/chr/debounce",
-                                    },
-                                    {
-                                        text: "throttle",
-                                        link: "/version/1.2.0/chr/throttle",
-                                    },
+                                    { text: "debounce", link: "/1.2.0/chr/debounce" },
+                                    { text: "throttle", link: "/1.2.0/chr/throttle" },
                                 ],
                             },
                             {
                                 text: "map",
+                                collapsed: false,
                                 items: [
-                                    {
-                                        text: "mapEntries",
-                                        link: "/version/1.2.0/map/map-entries",
-                                    },
-                                    {
-                                        text: "mapKeys",
-                                        link: "/version/1.2.0/map/map-keys",
-                                    },
-                                    {
-                                        text: "mapValues",
-                                        link: "/version/1.2.0/map/map-values",
-                                    },
-                                    {
-                                        text: "entries",
-                                        link: "/version/1.2.0/map/entries",
-                                    },
-                                    {
-                                        text: "keys",
-                                        link: "/version/1.2.0/map/keys",
-                                    },
-                                    {
-                                        text: "values",
-                                        link: "/version/1.2.0/map/values",
-                                    },
-                                    {
-                                        text: "fromObject",
-                                        link: "/version/1.2.0/map/from-object",
-                                    },
-                                    {
-                                        text: "fromObjectArray",
-                                        link:
-                                            "/version/1.2.0/map/from-object-array",
-                                    },
+                                    { text: "mapEntries", link: "/1.2.0/map/map-entries" },
+                                    { text: "mapKeys", link: "/1.2.0/map/map-keys" },
+                                    { text: "mapValues", link: "/1.2.0/map/map-values" },
+                                    { text: "entries", link: "/1.2.0/map/entries" },
+                                    { text: "keys", link: "/1.2.0/map/keys" },
+                                    { text: "values", link: "/1.2.0/map/values" },
+                                    { text: "fromObject", link: "/1.2.0/map/from-object" },
+                                    { text: "fromObjectArray", link: "/1.2.0/map/from-object-array" },
                                 ],
                             },
                             {
                                 text: "num",
+                                collapsed: false,
                                 items: [
-                                    {
-                                        text: "clamp",
-                                        link: "/version/1.2.0/num/clamp",
-                                    },
-                                    {
-                                        text: "parse",
-                                        link: "/version/1.2.0/num/parse",
-                                    },
-                                    {
-                                        text: "range",
-                                        link: "/version/1.2.0/num/range",
-                                    },
-                                    {
-                                        text: "lazyRange",
-                                        link: "/version/1.2.0/num/lazy-range",
-                                    },
-                                    {
-                                        text: "isValid",
-                                        link: "/version/1.2.0/num/is-valid",
-                                    },
-                                    {
-                                        text: "random",
-                                        link: "/version/1.2.0/num/random",
-                                    },
-                                    {
-                                        text: "compareAsc",
-                                        link: "/version/1.2.0/num/compare-asc",
-                                    },
-                                    {
-                                        text: "compareDesc",
-                                        link: "/version/1.2.0/num/compare-desc",
-                                    },
-                                    {
-                                        text: "normalizeZero",
-                                        link:
-                                            "/version/1.2.0/num/normalize-zero",
-                                    },
-                                    {
-                                        text: "toFixed",
-                                        link: "/version/1.2.0/num/to-fixed",
-                                    },
+                                    { text: "clamp", link: "/1.2.0/num/clamp" },
+                                    { text: "parse", link: "/1.2.0/num/parse" },
+                                    { text: "range", link: "/1.2.0/num/range" },
+                                    { text: "lazyRange", link: "/1.2.0/num/lazy-range" },
+                                    { text: "isValid", link: "/1.2.0/num/is-valid" },
+                                    { text: "random", link: "/1.2.0/num/random" },
+                                    { text: "compareAsc", link: "/1.2.0/num/compare-asc" },
+                                    { text: "compareDesc", link: "/1.2.0/num/compare-desc" },
+                                    { text: "normalizeZero", link: "/1.2.0/num/normalize-zero" },
+                                    { text: "toFixed", link: "/1.2.0/num/to-fixed" },
                                 ],
                             },
                             {
                                 text: "obj",
+                                collapsed: false,
                                 items: [
-                                    {
-                                        text: "mapEntries",
-                                        link: "/version/1.2.0/obj/map-entries",
-                                    },
-                                    {
-                                        text: "mapKeys",
-                                        link: "/version/1.2.0/obj/map-keys",
-                                    },
-                                    {
-                                        text: "mapValues",
-                                        link: "/version/1.2.0/obj/map-values",
-                                    },
-                                    {
-                                        text: "serialize",
-                                        link: "/version/1.2.0/obj/serialize",
-                                    },
-                                    {
-                                        text: "serializesToSame",
-                                        link:
-                                            "/version/1.2.0/obj/serializes-to-same",
-                                    },
-                                    {
-                                        text: "fromMap",
-                                        link: "/version/1.2.0/obj/from-map",
-                                    },
-                                    {
-                                        text: "pick",
-                                        link: "/version/1.2.0/obj/pick",
-                                    },
-                                    {
-                                        text: "omit",
-                                        link: "/version/1.2.0/obj/omit",
-                                    },
-                                    {
-                                        text: "disjoint",
-                                        link: "/version/1.2.0/obj/disjoint",
-                                    },
-                                    {
-                                        text: "intersect",
-                                        link: "/version/1.2.0/obj/intersect",
-                                    },
+                                    { text: "mapEntries", link: "/1.2.0/obj/map-entries" },
+                                    { text: "mapKeys", link: "/1.2.0/obj/map-keys" },
+                                    { text: "mapValues", link: "/1.2.0/obj/map-values" },
+                                    { text: "serialize", link: "/1.2.0/obj/serialize" },
+                                    { text: "serializesToSame", link: "/1.2.0/obj/serializes-to-same" },
+                                    { text: "fromMap", link: "/1.2.0/obj/from-map" },
+                                    { text: "pick", link: "/1.2.0/obj/pick" },
+                                    { text: "omit", link: "/1.2.0/obj/omit" },
+                                    { text: "disjoint", link: "/1.2.0/obj/disjoint" },
+                                    { text: "intersect", link: "/1.2.0/obj/intersect" },
                                 ],
                             },
                             {
                                 text: "prm",
+                                collapsed: false,
                                 items: [
-                                    {
-                                        text: "last",
-                                        link: "/version/1.2.0/prm/last",
-                                    },
-                                    {
-                                        text: "resolveTimeout",
-                                        link:
-                                            "/version/1.2.0/prm/resolve-timeout",
-                                    },
-                                    {
-                                        text: "rejectTimeout",
-                                        link:
-                                            "/version/1.2.0/prm/reject-timeout",
-                                    },
-                                    {
-                                        text: "objectify",
-                                        link: "/version/1.2.0/prm/objectify",
-                                    },
-                                    {
-                                        text: "retry",
-                                        link: "/version/1.2.0/prm/retry",
-                                    },
+                                    { text: "last", link: "/1.2.0/prm/last" },
+                                    { text: "resolveTimeout", link: "/1.2.0/prm/resolve-timeout" },
+                                    { text: "rejectTimeout", link: "/1.2.0/prm/reject-timeout" },
+                                    { text: "objectify", link: "/1.2.0/prm/objectify" },
+                                    { text: "retry", link: "/1.2.0/prm/retry" },
                                 ],
                             },
                             {
                                 text: "std",
+                                collapsed: false,
                                 items: [
-                                    {
-                                        text: "compose",
-                                        link: "/version/1.2.0/std/compose",
-                                    },
-                                    {
-                                        text: "pipe",
-                                        link: "/version/1.2.0/std/pipe",
-                                    },
-                                    {
-                                        text: "self",
-                                        link: "/version/1.2.0/std/self",
-                                    },
+                                    { text: "compose", link: "/1.2.0/std/compose" },
+                                    { text: "pipe", link: "/1.2.0/std/pipe" },
+                                    { text: "self", link: "/1.2.0/std/self" },
                                 ],
                             },
                             {
                                 text: "str",
+                                collapsed: false,
                                 items: [
-                                    {
-                                        text: "camelCase",
-                                        link: "/version/1.2.0/str/camel-case",
-                                    },
-                                    {
-                                        text: "pascalCase",
-                                        link: "/version/1.2.0/str/pascal-case",
-                                    },
-                                    {
-                                        text: "kebabCase",
-                                        link: "/version/1.2.0/str/kebab-case",
-                                    },
-                                    {
-                                        text: "snakeCase",
-                                        link: "/version/1.2.0/str/snake-case",
-                                    },
-                                    {
-                                        text: "replaceAccentuation",
-                                        link:
-                                            "/version/1.2.0/str/replace-accentuation",
-                                    },
-                                    {
-                                        text: "removeAccentuation",
-                                        link:
-                                            "/version/1.2.0/str/remove-accentuation",
-                                    },
-                                    {
-                                        text: "isValid",
-                                        link: "/version/1.2.0/str/is-valid",
-                                    },
-                                    {
-                                        text: "random",
-                                        link: "/version/1.2.0/str/random",
-                                    },
-                                    {
-                                        text: "compareAsc",
-                                        link: "/version/1.2.0/str/compare-asc",
-                                    },
-                                    {
-                                        text: "compareDesc",
-                                        link: "/version/1.2.0/str/compare-desc",
-                                    },
+                                    { text: "camelCase", link: "/1.2.0/str/camel-case" },
+                                    { text: "pascalCase", link: "/1.2.0/str/pascal-case" },
+                                    { text: "kebabCase", link: "/1.2.0/str/kebab-case" },
+                                    { text: "snakeCase", link: "/1.2.0/str/snake-case" },
+                                    { text: "replaceAccentuation", link: "/1.2.0/str/replace-accentuation" },
+                                    { text: "removeAccentuation", link: "/1.2.0/str/remove-accentuation" },
+                                    { text: "isValid", link: "/1.2.0/str/is-valid" },
+                                    { text: "random", link: "/1.2.0/str/random" },
+                                    { text: "compareAsc", link: "/1.2.0/str/compare-asc" },
+                                    { text: "compareDesc", link: "/1.2.0/str/compare-desc" },
                                 ],
                             },
                             {
                                 text: "types",
                                 items: [
-                                    {
-                                        text: "plainObject",
-                                        link:
-                                            "/version/1.2.0/types/plain-object",
-                                    },
+                                    { text: "plainObject", link: "/1.2.0/types/plain-object" },
                                 ],
                             },
                         ],

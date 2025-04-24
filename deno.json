@@ -13,9 +13,9 @@
             "types/",
             "index.md",
             "readme.md",
-            ".vitepress/config.ts",
+            ".vitepress/config.ts"
         ],
-        "lineWidth": 80,
+        "lineWidth": 150,
         "indentWidth": 4
     }
 }
