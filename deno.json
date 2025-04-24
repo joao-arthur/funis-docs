@@ -1,7 +1,6 @@
 {
     "fmt": {
         "include": [
-            "src/",
             "arr/",
             "cb/",
             "chr/",
@@ -13,7 +12,8 @@
             "str/",
             "types/",
             "index.md",
-            "readme.md"
+            "readme.md",
+            ".vitepress/config.ts",
         ],
         "lineWidth": 80,
         "indentWidth": 4
